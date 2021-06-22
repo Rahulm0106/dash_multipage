@@ -31,6 +31,7 @@ ADD app.py /work/app.py
 ### the applications
 ADD apps/app1.py /work/apps/app1.py 
 ADD apps/app2.py /work/apps/app2.py 
+ADD apps/displayAll.py /work/apps/displayAll.py
 ADD apps/app3.py /work/apps/app3.py 
 ADD apps/app4.py /work/apps/app4.py 
 ADD apps/app5.py /work/apps/app5.py 
@@ -46,6 +47,7 @@ ADD static/plotly(9).png /work/static/plotly(9).png
 ADD static/plotly(10).png /work/static/plotly(10).png
 ADD static/plotly(12).png /work/static/plotly(12).png
 ADD static/custom.css /work/static/custom.css
+ADD static/GUI.css /work/static/GUI.css
 
 
 

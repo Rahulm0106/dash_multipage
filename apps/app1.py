@@ -16,11 +16,11 @@ def layout():
                 html.Div(className='col-lg-8',children=[
                     
                     html.Div(className='col-lg-6',children=[
-                      html.A([html.Img(className='img-responsive',src='/static/plotly(8).png')],href="/apps/app2"),
+                      html.A([html.Img(className='img-responsive',src='/static/plotly(8).png')],href="/apps/displayAll"),
                       html.A(  [html.Img(className='img-responsive',src='/static/plotly(9).png')],  href="/apps/app3"  )
                     ]),
                     html.Div(className='col-lg-6',children=[
-                       dcc.Link ( children= [html.Img(className='img-responsive',src='/static/plotly(10).png')], href="/apps/app2"),
+                       dcc.Link ( children= [html.Img(className='img-responsive',src='/static/plotly(10).png')], href="/apps/displayAll"),
                        html.A( [html.Img(className='img-responsive',src='/static/plotly(12).png')], href="/apps/app8"  )
                     ])
                 ]),

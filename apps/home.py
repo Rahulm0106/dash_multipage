@@ -8,7 +8,7 @@ def layout():
     return html.Div([
     html.H3('Home'),
     html.Div([dcc.Link('Commercial App', href='/apps/app1',style={ 'text-decoration': 'underline','color':'#1F77B4'})]),
-    html.Div([dcc.Link('Analitic App', href='/apps/app2',style={ 'text-decoration': 'underline','color':'#1F77B4'})]),
+    html.Div([dcc.Link('Analitic App', href='/apps/displayAll',style={ 'text-decoration': 'underline','color':'#1F77B4'})]),
     html.Div([dcc.Link('Sales App', href='/apps/app3',style={ 'text-decoration': 'underline','color':'#1F77B4'})]),
     html.Div([dcc.Link('IT devices', href='/apps/app4',style={ 'text-decoration': 'underline','color':'#1F77B4'})]),
     html.Div([dcc.Link('United IT devices', href='/apps/app5',style={ 'text-decoration': 'underline','color':'#1F77B4'})]),

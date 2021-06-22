@@ -2,7 +2,7 @@ from dash.dependencies import Input, Output
 import dash_core_components as dcc
 import dash_html_components as html
 from app import app
-from apps import app1, app2,app3,app4,app5,app6,app7,app8,home
+from apps import app1, displayAll,app3,app4,app5,app6,app7,app8,home
 import dash_table_experiments as dt
 import base64
 import os
@@ -25,7 +25,7 @@ app.layout=html.Div([html.Link(
         ),
         html.Ul(className='nav navbar-nav',children=[
         html.Li(children=html.A(href="/apps/app1",children="Home")),
-        html.Li(children=html.A(href="/apps/app2",children="Visualization")),
+        html.Li(children=html.A(href="/apps/displayAll",children="Visualization")),
         html.Li(children=html.A(href="/apps/app3",children="Natural Language Processing")),
         #html.Li(children=html.A(href="/apps/app4",children="app4")),
         #html.Li(children=html.A(href="/apps/app5",children="app5")),
@@ -45,8 +45,8 @@ app.layout=html.Div([html.Link(
 def display_page(pathname):
     if pathname == '/apps/app1':
         return app1.layout()
-    elif pathname == '/apps/app2':
-        return app2.layout()
+    elif pathname == '/apps/displayAll':
+        return displayAll.layout()
     elif pathname == '/apps/app3':
         return app3.layout()
     elif pathname == '/apps/app4':
