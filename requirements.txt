@@ -1,5 +1,5 @@
 pymssql==2.2.1
-dash_table_experiments==0.6.0
+dash_table==0.6.0
 PyMySQL==1.0.2
 Flask_Caching==1.10.1
 dash==1.20.0
